@@ -11,7 +11,7 @@ GitHub Notes
 
 [This](https://confluence.atlassian.com/bitbucket/branching-a-repository-223217999.html) is a goog link for insturction.
 
-'''sh
+```sh
 # Check branches
 git branch
 
@@ -30,4 +30,4 @@ git checkout master
 
 # Push the feature branch to Bitbucket
 git push origin <feature_branch>
-'''
+```
