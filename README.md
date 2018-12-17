@@ -18,6 +18,9 @@ git branch
 # Create a feature branch
 git branch <feature_branch>
 
+# Delete local branch
+git branch -d <local_branch_name>
+
 # Switch to the feature branch and work on it
 git checkout <feature_branch>
 
