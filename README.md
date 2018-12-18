@@ -28,6 +28,9 @@ git checkout <feature_branch>
 git add . 
 git commit -m "adding a change from the feature branch"
 
+# Discard changes made
+git checkout -- <file>
+
 # Switch back to the master branch
 git checkout master
 
