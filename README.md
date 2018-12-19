@@ -36,6 +36,9 @@ git checkout master
 
 # Push the feature branch to Bitbucket
 git push origin <feature_branch>
+
+# git fetch vs git pull
+# git pull = git fetch + git merge
 ```
 
 ### Use Git with RStudio
