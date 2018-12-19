@@ -52,3 +52,8 @@ git fetch
 git checkout my-new-feat
 git rebase origin/master
 ```
+
+### Check log for one user
+```sh
+git log --author=justincart
+```
