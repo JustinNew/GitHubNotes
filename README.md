@@ -37,3 +37,7 @@ git checkout master
 # Push the feature branch to Bitbucket
 git push origin <feature_branch>
 ```
+
+### Use Git with RStudio
+
+  - Follow this [link](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html).
