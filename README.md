@@ -44,3 +44,11 @@ git push origin <feature_branch>
 ### Use Git with RStudio
 
   - Follow this [link](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html).
+
+### Rebase 
+
+```sh
+git fetch
+git checkout my-new-feat
+git rebase origin/master
+```
