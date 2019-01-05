@@ -9,7 +9,7 @@ GitHub Notes
 
 ### Create a branch 
 
-[This](https://confluence.atlassian.com/bitbucket/branching-a-repository-223217999.html) is a goog link for insturction.
+[This](https://confluence.atlassian.com/bitbucket/branching-a-repository-223217999.html) is a good link for instructions.
 
 ```sh
 # Check branches
