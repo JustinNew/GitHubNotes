@@ -57,3 +57,17 @@ git rebase origin/master
 ```sh
 git log --author=justincart
 ```
+
+### Undo last commit
+```sh
+echo "some changes..." > file.html
+git add file.html
+git commit -m "wrong commit"
+
+# I need to reset
+git reset --hard HEAD~1 (cancel changes)
+# OR
+git reset --soft HEAD~1 # Back to staging
+git reset HEAD file.html # back to working directory
+git checkout -- file.html # cancel changes
+```
