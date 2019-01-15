@@ -28,6 +28,9 @@ git checkout <feature_branch>
 git add . 
 git commit -m "adding a change from the feature branch"
 
+# Show the changes have been made after "git add" and "git commit -m"  
+Git show
+
 # Discard changes made
 git checkout -- <file>
 
