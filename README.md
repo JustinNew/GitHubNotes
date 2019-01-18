@@ -82,3 +82,20 @@ git checkout -- file.html # cancel changes
   - **git pull origin/master** will pull changes from the locally stored branch origin/master and merge that to the local checked-out branch. The origin/master branch is essentially a "cached copy" of what was last pulled from origin, which is why it's called a remote branch in git parlance. This might be somewhat confusing.
 
   - **git pull origin mybranch**, snyc up my local branch **mybranch** with the remote branch changes.
+
+### [Git stash](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
+
+  - Often, when you’ve been working on part of your project, things are in a messy state and you want to switch branches for a bit to work on something else. The problem is, you don’t want to do a commit of half-done work just so you can get back to this point later. The answer to this issue is the git stash command.
+
+  - Stashing takes the dirty state of your working directory — that is, your modified tracked files and staged changes — and saves it on a stack of unfinished changes that you can reapply at any time.
+
+```sh
+# stash
+git stash
+
+# list stashes
+git stash list
+
+# restore
+git stash apply
+```
