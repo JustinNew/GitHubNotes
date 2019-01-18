@@ -90,6 +90,9 @@ git checkout -- file.html # cancel changes
   - Stashing takes the dirty state of your working directory — that is, your modified tracked files and staged changes — and saves it on a stack of unfinished changes that you can reapply at any time.
 
 ```sh
+# Add changes but do not commit
+git add file_changed
+
 # stash
 git stash
 
