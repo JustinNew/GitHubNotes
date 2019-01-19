@@ -102,3 +102,13 @@ git stash list
 # restore
 git stash apply
 ```
+
+### Revert one commit and remove one file from staging
+
+```sh
+# Reset last commit
+git reset --soft HEAD~1
+
+# Remove score_per_user.py from staging
+git reset HEAD score_per_user.py
+```
