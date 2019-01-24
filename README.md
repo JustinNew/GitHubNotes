@@ -112,3 +112,14 @@ git reset --soft HEAD~1
 # Remove score_per_user.py from staging
 git reset HEAD score_per_user.py
 ```
+
+### Adding new things into last commit
+```sh
+# Edit hello.py and main.py 
+git add hello.py 
+git commit -m 'something'
+
+# Realize you forgot to add the changes from main.py 
+git add main.py
+git commit --amend --no-edit
+```
