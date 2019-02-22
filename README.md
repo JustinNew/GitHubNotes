@@ -123,3 +123,8 @@ git commit -m 'something'
 git add main.py
 git commit --amend --no-edit
 ```
+
+### Unmodifying a Modified File / Undo a change
+```
+git checkout -- <file>
+```
