@@ -128,3 +128,9 @@ git commit --amend --no-edit
 ```
 git checkout -- <file>
 ```
+
+### Add An Empty Folder
+
+  - No empty folder allowed.
+  - If you really want to have the empty folder:
+    - Create an empty file called **.gitkeep** in the directory, and add that.
