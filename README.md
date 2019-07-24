@@ -134,3 +134,19 @@ git checkout -- <file>
   - No empty folder allowed.
   - If you really want to have the empty folder:
     - Create an empty file called **.gitkeep** in the directory, and add that.
+
+### Clone a remote branch
+
+    - Command line
+    ```sh 
+    git checkout -b <branch-name> <origin/branch_name>
+    ```
+    - My commands
+    ```sh
+    git checkout -b hourly_demand_forecasts origin/hourly_demand_forecasts
+    
+    Output:
+    Checking out files: 100% (4370/4370), done.
+    Branch 'hourly_demand_forecasts' set up to track remote branch 'hourly_demand_forecasts' from 'origin'.
+    Switched to a new branch 'hourly_demand_forecasts'
+    ```
