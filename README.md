@@ -139,17 +139,16 @@ git checkout -- <file>
 
     - Command line
 
-    ```sh 
-    git checkout -b <branch-name> <origin/branch_name>
-    ```
+```sh 
+git checkout -b <branch-name> <origin/branch_name>
+```
 
     - My commands
 
-    ```sh
-    git checkout -b hourly_demand_forecasts origin/hourly_demand_forecasts
+```sh
+git checkout -b hourly_demand_forecasts origin/hourly_demand_forecasts
     
-    Output:
-    Checking out files: 100% (4370/4370), done.
-    Branch 'hourly_demand_forecasts' set up to track remote branch 'hourly_demand_forecasts' from 'origin'.
-    Switched to a new branch 'hourly_demand_forecasts'
-    ```
+Checking out files: 100% (4370/4370), done.
+Branch 'hourly_demand_forecasts' set up to track remote branch 'hourly_demand_forecasts' from 'origin'.
+Switched to a new branch 'hourly_demand_forecasts'
+```
