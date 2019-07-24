@@ -138,10 +138,13 @@ git checkout -- <file>
 ### Clone a remote branch
 
     - Command line
+
     ```sh 
     git checkout -b <branch-name> <origin/branch_name>
     ```
+
     - My commands
+
     ```sh
     git checkout -b hourly_demand_forecasts origin/hourly_demand_forecasts
     
