@@ -44,6 +44,15 @@ git push origin <feature_branch>
 # git pull = git fetch + git merge
 ```
 
+### Clone a single branch
+```
+# Check the repo name
+git config --get remote.origin.url
+
+# Clone a remote branch
+git clone -b jianhui/pickup_next_day --single-branch git@github.com:instacart/carrot.git
+```
+
 ### Use Git with RStudio
 
   - Follow this [link](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html).
