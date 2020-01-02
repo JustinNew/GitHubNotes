@@ -45,12 +45,19 @@ git push origin <feature_branch>
 ```
 
 ### Clone a single branch
+
 ```
+# Check branches
+git branch -a
+
 # Check the repo name
 git config --get remote.origin.url
 
 # Clone a remote branch
 git clone -b jianhui/pickup_next_day --single-branch git@github.com:instacart/carrot.git
+
+# Checkout to the cloned branch
+git checkout -b jianhui/pickup_next_day origin/jianhui/pickup_next_day
 ```
 
 ### Use Git with RStudio
@@ -82,6 +89,9 @@ git reset --hard HEAD~1 (cancel changes)
 git reset --soft HEAD~1 # Back to staging
 git reset HEAD file.html # back to working directory
 git checkout -- file.html # cancel changes
+
+# Rewind to the known good commit
+git push -f origin last_known_good_commit:branch_name
 ```
 
 ### Git Pull Origin Master vs Git Pull Origin/Master
