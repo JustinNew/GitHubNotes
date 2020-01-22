@@ -171,3 +171,12 @@ Checking out files: 100% (4370/4370), done.
 Branch 'hourly_demand_forecasts' set up to track remote branch 'hourly_demand_forecasts' from 'origin'.
 Switched to a new branch 'hourly_demand_forecasts'
 ```
+
+### Errors
+
+#### git pull does not work
+
+```sh
+git remote prune origin
+```
+  - This will not affect your local branches and it will not change anything remote, but it will update the local references you have to remote branches.
