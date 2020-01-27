@@ -148,6 +148,25 @@ git commit --amend --no-edit
 git checkout -- <file>
 ```
 
+### Merge two commits into one
+
+  - [This link explains it well](https://stackoverflow.com/questions/2563632/how-can-i-merge-two-commits-into-one-if-i-already-started-rebase)
+```sh
+# Check logs
+git log --pretty=oneline
+
+# Fire command 
+git rebase --interactive HEAD~2
+
+# Edit the popup file
+# The commits are ordered by commit time, meaning the last commit is the last line.
+# Change (last line) last commit one *pick* to *squash*
+# Save and Exit
+
+# Another file
+# Save and Exit
+```
+
 ### Add An Empty Folder
 
   - No empty folder allowed.
