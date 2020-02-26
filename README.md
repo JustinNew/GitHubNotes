@@ -42,6 +42,10 @@ git push origin <feature_branch>
 
 # git fetch vs git pull
 # git pull = git fetch + git merge
+
+# Already commited and pushed, but want to restore to master version for one file
+# restore one file to master version
+git checkout origin/master filename
 ```
 
 ### Clone a single branch
