@@ -81,6 +81,12 @@ git rebase origin/master
 git log --author=justincart
 ```
 
+### Undo last push / revert last push
+```sh
+git revert commit_number_xxx
+```
+
+
 ### Undo last commit
 ```sh
 echo "some changes..." > file.html
