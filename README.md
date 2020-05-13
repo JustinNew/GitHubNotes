@@ -183,6 +183,13 @@ git rebase --interactive HEAD~2
   - If you really want to have the empty folder:
     - Create an empty file called **.gitkeep** in the directory, and add that.
 
+### Undo a file change/Revert a file to master
+  
+  - If you want to revert the file to its state in master:
+```sh
+git checkout origin/master [filename]
+```
+
 ### Clone a remote branch
 
   - Command line
