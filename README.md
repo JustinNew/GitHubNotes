@@ -208,6 +208,14 @@ Branch 'hourly_demand_forecasts' set up to track remote branch 'hourly_demand_fo
 Switched to a new branch 'hourly_demand_forecasts'
 ```
 
+### Bring Master to Sync with Remote Master Branch
+  - Sync local master branch with remote master branch when master is off sync and cannot get synced by *git pull*
+```sh
+git fetch origin
+git reset --hard origin/master
+git clean -f -d
+```
+
 ### Errors
 
 #### git pull does not work
