@@ -194,7 +194,8 @@ git checkout origin/master [filename]
 
   - Command line
 
-```sh 
+```sh
+git fetch --all 
 git checkout -b <branch-name> <origin/branch_name>
 ```
 
