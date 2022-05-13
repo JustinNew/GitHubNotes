@@ -74,6 +74,7 @@ git checkout -b jianhui/pickup_next_day origin/jianhui/pickup_next_day
 git fetch
 git checkout my-new-feat
 git rebase origin/master
+git push --force origin my-new-feat
 ```
 
 ### Check log for one user
