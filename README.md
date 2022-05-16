@@ -218,6 +218,14 @@ git reset --hard origin/master
 git clean -f -d
 ```
 
+ - Sync local branch with remote branch
+```sh
+git fetch # This updates 'remote' portion of local repo. 
+git reset --hard origin/<your-working-branch>
+# This will sync your local copy with remote content, discarding any committed
+# or uncommitted changes.
+```
+
 ### Errors
 
 #### git pull does not work
