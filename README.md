@@ -79,6 +79,7 @@ git push --force origin my-new-feat
 
   - If `Updates were rejected because the tip of your current branch is behind`, then `git pull origin my-new-feaat` to sync with local branch.
   - Or, `git push --force origin my-new-feat` to force push the changes.
+  - `git log origin/my-new-feat..my-new-feat` to check any commits that haven't been pushed to the origin branch yet. 
 
 ### Check log for one user
 ```sh
