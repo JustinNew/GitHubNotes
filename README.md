@@ -77,7 +77,7 @@ git rebase origin/master
 git push --force origin my-new-feat
 ```
 
-  - If "Updates were rejected because the tip of your current branch is behind", then `git pull origin my-new-feaat` to sync with local branch.
+  - If `Updates were rejected because the tip of your current branch is behind`, then `git pull origin my-new-feaat` to sync with local branch.
 
 ### Check log for one user
 ```sh
