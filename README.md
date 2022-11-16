@@ -48,22 +48,6 @@ git push origin <feature_branch>
 git checkout origin/master filename
 ```
 
-### Clone a single branch
-
-```
-# Check branches
-git branch -a
-
-# Check the repo name
-git config --get remote.origin.url
-
-# Clone a remote branch
-git clone -b jianhui/pickup_next_day --single-branch git@github.com:instacart/carrot.git
-
-# Checkout to the cloned branch
-git checkout -b jianhui/pickup_next_day origin/jianhui/pickup_next_day
-```
-
 ### Use Git with RStudio
 
   - Follow this [link](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html).
@@ -212,6 +196,22 @@ git checkout -b hourly_demand_forecasts origin/hourly_demand_forecasts
 Checking out files: 100% (4370/4370), done.
 Branch 'hourly_demand_forecasts' set up to track remote branch 'hourly_demand_forecasts' from 'origin'.
 Switched to a new branch 'hourly_demand_forecasts'
+```
+
+### Clone a single branch
+
+```
+# Check branches
+git branch -a
+
+# Check the repo name
+git config --get remote.origin.url
+
+# Clone a remote branch
+git clone -b jianhui/pickup_next_day --single-branch git@github.com:instacart/carrot.git
+
+# Checkout to the cloned branch
+git checkout -b jianhui/pickup_next_day origin/jianhui/pickup_next_day
 ```
 
 ### Bring Master to Sync with Remote Master Branch
