@@ -4,8 +4,8 @@ GitHub Notes
 ### One Computer Two Git Accounts
   - Link: https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
   - Differences for the second Git:
-    - git push git@github-JustinNew:JustinNew/GitHubNotes.git
-    - git pull git@github-JustinNew:JustinNew/GitHubNotes.git
+    - git push git@github.com-JustinNew:JustinNew/GitHubNotes.git
+    - git pull git@github.com-JustinNew:JustinNew/GitHubNotes.git
 
 ### Create a branch 
 
@@ -54,19 +54,19 @@ git checkout origin/master filename
 
 ### Rebase | Merge Master Into Working Branch
 
-Step 1: Clone the repository or update your local repository with the latest changes.
-`git pull origin master`
+  - Step 1: Clone the repository or update your local repository with the latest changes.
+    `git pull origin master`
 
-Step 2: Switch to the head branch of the pull request.
-`git checkout jt/mae_peta_seta_followup_rollout`
+  - Step 2: Switch to the head branch of the pull request.
+    `git checkout jt/mae_peta_seta_followup_rollout`
 
-Step 3: Merge the base branch into the head branch.
-`git merge master`
+  - Step 3: Merge the base branch into the head branch.
+    `git merge master`
 
-Step 4: Fix the conflicts and commit the result.
+  - Step 4: Fix the conflicts and commit the result.
 
-Step 5: Push the changes.
-`git push -u origin jt/mae_peta_seta_followup_rollout`
+  - Step 5: Push the changes.
+    `git push -u origin jt/mae_peta_seta_followup_rollout`
 
 ### Check log for one user
 ```sh
