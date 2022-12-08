@@ -52,18 +52,21 @@ git checkout origin/master filename
 
   - Follow this [link](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html).
 
-### Rebase 
+### Rebase | Merge Master Into Working Branch
 
-```sh
-git fetch
-git checkout my-new-feat
-git rebase origin/master
-git push --force origin my-new-feat
-```
+Step 1: Clone the repository or update your local repository with the latest changes.
+`git pull origin master`
 
-  - If `Updates were rejected because the tip of your current branch is behind`, then `git pull origin my-new-feat` to sync with local branch.
-  - Or, `git push --force origin my-new-feat` to force push the changes.
-  - `git log origin/my-new-feat..my-new-feat` to check any commits that haven't been pushed to the origin branch yet. 
+Step 2: Switch to the head branch of the pull request.
+`git checkout jt/mae_peta_seta_followup_rollout`
+
+Step 3: Merge the base branch into the head branch.
+`git merge master`
+
+Step 4: Fix the conflicts and commit the result.
+
+Step 5: Push the changes.
+`git push -u origin jt/mae_peta_seta_followup_rollout`
 
 ### Check log for one user
 ```sh
