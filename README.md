@@ -63,7 +63,8 @@ git checkout origin/master filename
   - Step 3: Merge the base branch into the head branch.
     `git merge master`
 
-  - Step 4: Fix the conflicts and commit the result.
+  - Step 4: Fix the conflicts and commit the result. 
+    'git commit -m ...`
 
   - Step 5: Push the changes.
     `git push -u origin jt/mae_peta_seta_followup_rollout`
