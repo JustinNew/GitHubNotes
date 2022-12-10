@@ -64,7 +64,7 @@ git checkout origin/master filename
     `git merge master`
 
   - Step 4: Fix the conflicts and commit the result. 
-    'git commit -m ...`
+    `git commit -m ...`
 
   - Step 5: Push the changes.
     `git push -u origin jt/mae_peta_seta_followup_rollout`
